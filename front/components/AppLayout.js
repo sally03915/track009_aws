@@ -25,8 +25,17 @@ function AppLayout({  children , initialUser  }){   //★ 대체부품, 초기�
     // const handleLogout = ()=>{   dispatch(logoutRequest());   router.replace('/login');  };  // 디스패치(logoutRequest()) / 경로 login 넘기기   //##
  
     const handleLogout = (e)=>{  
-        dispatch(logoutRequest());  // router.replace('/login');  
-        window.location.href = '/login';
+        dispatch(logoutRequest());  // router.replace('/login');   
+        
+        if (typeof window !== 'undefined') {
+            localStorage.removeItem('accessToken'); // 👈 accessToken 명시적 삭제
+            localStorage.removeItem('token');       // 기존 token 키가 있다면 같이 삭제
+            sessionStorage.clear();
+            
+            // 3. 로그인 페이지로 이동
+            window.location.href = '/login';
+        }
+        
     };   
  
     const menuItems = [
