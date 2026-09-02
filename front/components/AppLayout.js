@@ -27,7 +27,7 @@ function AppLayout({  children , initialUser  }){   //★ 대체부품, 초기�
     const handleLogout = (e)=>{  
         dispatch(logoutRequest());  // router.replace('/login');  
         window.location.href = '/login';
-    };  // 디스패치(logoutRequest()) / 경로 login 넘기기   //##
+    };   
  
     const menuItems = [
        ...( user  &&  user.nickname
