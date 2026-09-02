@@ -11,7 +11,7 @@ const  {Header, Content} = Layout;    // <Layout.Header> → <Header>
 const  {useBreakpoint} = Grid;
 import {logoutRequest , loginSuccess }  from '../reducers/authReducer';  //##
 
-import  axios from "axios";
+import  axios from "../api/axios";  //
 
 //2. 부품
 // Header / Drawer
@@ -23,25 +23,12 @@ function AppLayout({  children , initialUser  }){   //★ 대체부품, 초기�
     const {user}       = useSelector((state)=> state.auth); 
     
     // const handleLogout = ()=>{   dispatch(logoutRequest());   router.replace('/login');  };  // 디스패치(logoutRequest()) / 경로 login 넘기기   //##
-
-    // handleLogout 함수 수정
-    const handleLogout = () => {
-        // 1. 모바일 메뉴(Drawer)가 열려있다면 닫기
-        setDrawerOpen(false);
-
-        // 2. Redux 로그아웃 액션 실행
-        dispatch(logoutRequest());
-
-        // 3. 브라우저에 남아있는 토큰 및 세션 정보 강제 삭제 (선택 안전장치)
-        if (typeof window !== 'undefined') {
-            localStorage.removeItem('token');
-            localStorage.removeItem('user');
-            
-            // 4. 강제 페이지 이동으로 상태 완전 초기화
-            window.location.href = '/login';
-        }
-    };
-
+ 
+    const handleLogout = (e)=>{  
+        dispatch(logoutRequest());  // router.replace('/login');  
+        window.location.href = '/login';
+    };  // 디스패치(logoutRequest()) / 경로 login 넘기기   //##
+ 
     const menuItems = [
        ...( user  &&  user.nickname
         ? [
