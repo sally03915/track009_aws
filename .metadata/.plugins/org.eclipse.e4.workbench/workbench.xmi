@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_xaGPcKaaEfGvFLgsnyHWWw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_xaGPcaaaEfGvFLgsnyHWWw" bindingContexts="_xaGPeqaaEfGvFLgsnyHWWw">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;SpringBootYMLPropertyEditor&quot; name=&quot;application-oauth.yml&quot; tooltip=&quot;boot3/src/main/resources/application-oauth.yml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/resources/application-oauth.yml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;SpringBootYMLPropertyEditor&quot; name=&quot;application.yml&quot; tooltip=&quot;boot3/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SecurityConfig.java&quot; tooltip=&quot;boot3/src/main/java/com/thejoa703/config/SecurityConfig.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/java/com/thejoa703/config/SecurityConfig.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WebConfig.java&quot; tooltip=&quot;boot3/src/main/java/com/thejoa703/config/WebConfig.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/java/com/thejoa703/config/WebConfig.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RedisConfig.java&quot; tooltip=&quot;boot3/src/main/java/com/thejoa703/config/RedisConfig.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/java/com/thejoa703/config/RedisConfig.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PasswordConfig.java&quot; tooltip=&quot;boot3/src/main/java/com/thejoa703/config/PasswordConfig.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/java/com/thejoa703/config/PasswordConfig.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Boot3Application.java&quot; tooltip=&quot;boot3/src/main/java/com/thejoa703/Boot3Application.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/boot3/src/main/java/com/thejoa703/Boot3Application.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_xaGPcaaaEfGvFLgsnyHWWw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_yDxekaaaEfGvFLgsnyHWWw" label="%trimmedwindow.label.eclipseSDK" x="-1642" y="191" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_xaGPcaaaEfGvFLgsnyHWWw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_yDxekaaaEfGvFLgsnyHWWw" label="%trimmedwindow.label.eclipseSDK" x="243" y="84" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -57,15 +57,9 @@
           <tags>persp.newWizSC:org.eclipse.ui.editors.wizards.UntitledTextFileWizard</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaBrowsingPerspective</tags>
           <tags>persp.perspSC:org.eclipse.debug.ui.DebugPerspective</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.svg</tags>
-          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
           <tags>persp.showIn:org.eclipse.jdt.ui.PackageExplorer</tags>
           <tags>persp.showIn:org.eclipse.team.ui.GenericHistoryView</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
-          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
-          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <tags>persp.viewSC:org.eclipse.mylyn.tasks.ui.views.tasks</tags>
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
           <tags>persp.viewSC:org.eclipse.terminal.view.ui.TerminalsView</tags>
@@ -80,6 +74,12 @@
           <tags>persp.newWizSC:org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard</tags>
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.svg</tags>
+          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
+          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
+          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_yYmfEaaaEfGvFLgsnyHWWw" selectedElement="_yYmfEqaaEfGvFLgsnyHWWw" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_yYmfEqaaEfGvFLgsnyHWWw" containerData="1703" selectedElement="_yYmfE6aaEfGvFLgsnyHWWw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_yYmfE6aaEfGvFLgsnyHWWw" containerData="6000" selectedElement="_yYmfFKaaEfGvFLgsnyHWWw">
@@ -262,7 +262,7 @@
           <tags>SpringBootYMLPropertyEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_7wU8EKadEfGvFLgsnyHWWw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application-oauth.yml" iconURI="platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_yml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;SpringBootYMLPropertyEditor&quot; name=&quot;application-oauth.yml&quot; partName=&quot;application-oauth.yml&quot; title=&quot;application-oauth.yml&quot; tooltip=&quot;boot3/src/main/resources/application-oauth.yml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/boot3/src/main/resources/application-oauth.yml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1869&quot; selectionTopPixel=&quot;868&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;SpringBootYMLPropertyEditor&quot; name=&quot;application-oauth.yml&quot; partName=&quot;application-oauth.yml&quot; title=&quot;application-oauth.yml&quot; tooltip=&quot;boot3/src/main/resources/application-oauth.yml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/boot3/src/main/resources/application-oauth.yml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>SpringBootYMLPropertyEditor</tags>
@@ -428,7 +428,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yHlnkKaaEfGvFLgsnyHWWw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_yHtjYKaaEfGvFLgsnyHWWw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" enabled="false" command="_xbxDhKaaEfGvFLgsnyHWWw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dPVTYKanEfGkRPtpjmHV1g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_xbxDhKaaEfGvFLgsnyHWWw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yHlnkaaaEfGvFLgsnyHWWw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -436,8 +436,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yHlnk6aaEfGvFLgsnyHWWw" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_yHuKc6aaEfGvFLgsnyHWWw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" enabled="false" command="_xbq9E6aaEfGvFLgsnyHWWw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_yHuxgKaaEfGvFLgsnyHWWw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_xbuAGaaaEfGvFLgsnyHWWw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dPWhgqanEfGkRPtpjmHV1g" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" enabled="false" command="_xbq9E6aaEfGvFLgsnyHWWw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dPXIkKanEfGkRPtpjmHV1g" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_xbuAGaaaEfGvFLgsnyHWWw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yHlnlKaaEfGvFLgsnyHWWw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -461,7 +461,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yHmOoKaaEfGvFLgsnyHWWw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_yHvYkKaaEfGvFLgsnyHWWw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" enabled="false" type="Check" command="_xbwcwKaaEfGvFLgsnyHWWw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dPYWsKanEfGkRPtpjmHV1g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" enabled="false" type="Check" command="_xbwcwKaaEfGvFLgsnyHWWw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yHmOoaaaEfGvFLgsnyHWWw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2629,7 +2629,7 @@
   <addons xmi:id="_xaGPhqaaEfGvFLgsnyHWWw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_xaGPh6aaEfGvFLgsnyHWWw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_xa1PQKaaEfGvFLgsnyHWWw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_cuX7YKanEfGkRPtpjmHV1g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_xbmEQKaaEfGvFLgsnyHWWw" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_xbmEQaaaEfGvFLgsnyHWWw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
