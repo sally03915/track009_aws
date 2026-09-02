@@ -22,3 +22,9 @@ Thumbs.db
 *.md 
 *.pem
 /.metadata/
+/.vscode/
+
+*.zip
+*.md
+*.pem
+*.csv
