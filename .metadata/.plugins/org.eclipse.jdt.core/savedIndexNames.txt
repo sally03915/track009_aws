@@ -1,2 +1,0 @@
-INDEX VERSION 1.134+D:\hyojung2\2026-AI-FULLSTACK\track009_aws\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
