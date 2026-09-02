@@ -50,6 +50,5 @@ file:
 #server:
 #  port: 8484
 
-
 server:
   forward-headers-strategy: native
