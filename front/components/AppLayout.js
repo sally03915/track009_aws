@@ -11,7 +11,7 @@ const  {Header, Content} = Layout;    // <Layout.Header> → <Header>
 const  {useBreakpoint} = Grid;
 import {logoutRequest , loginSuccess }  from '../reducers/authReducer';  //##
 
-import  axios from "../api/axios";  //
+import  axios from "../api/axios";   
 
 //2. 부품
 // Header / Drawer
@@ -22,21 +22,23 @@ function AppLayout({  children , initialUser  }){   //★ 대체부품, 초기�
     const dispatch     = useDispatch();
     const {user}       = useSelector((state)=> state.auth); 
     
-    // const handleLogout = ()=>{   dispatch(logoutRequest());   router.replace('/login');  };  // 디스패치(logoutRequest()) / 경로 login 넘기기   //##
- 
-    const handleLogout = (e)=>{  
-        dispatch(logoutRequest());  // router.replace('/login');   
-        
-        if (typeof window !== 'undefined') {
-            localStorage.removeItem('accessToken'); // 👈 accessToken 명시적 삭제
-            localStorage.removeItem('token');       // 기존 token 키가 있다면 같이 삭제
+    // const handleLogout = ()=>{   
+    //     dispatch(logoutRequest());   
+    //     router.replace('/login');  
+    // };  
+    //////// 로그아웃
+    const handleLogout = (e)=>{   
+        if( e  &&  e.preventDefault)    e.preventDefault();
+
+        dispatch(logoutRequest());   
+
+        if(  typeof  window  !== 'undefined' ){
+            localStorage.removeItem('accessToken');
             sessionStorage.clear();
-            
-            // 3. 로그인 페이지로 이동
-            window.location.href = '/login';
+            //router.replace('/login');  
+            window.location.href='/login';
         }
-        
-    };   
+    };  
  
     const menuItems = [
        ...( user  &&  user.nickname
